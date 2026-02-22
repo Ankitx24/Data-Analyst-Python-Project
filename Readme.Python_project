@@ -2,7 +2,6 @@
 📌 PROJECT OVERVIEW
 
 This project focuses on analyzing real-world sales data from Zepto, a quick-commerce platform. The objective was to perform end-to-end data analysis — from raw data cleaning to generating meaningful business insights using Python.
-
 The dataset contains 200,000+ transactional records along with product catalog information. The project demonstrates practical implementation of data preprocessing, exploratory data analysis (EDA), aggregation, and visualization techniques.
 
 📂 Dataset Description
@@ -44,37 +43,25 @@ Jupyter Notebook
 ✅ 1. Data Loading & Exploration
 
 Loaded datasets using Pandas
-
 Inspected shape, columns, and data types
-
 Generated summary statistics
-
 Identified missing values and duplicates
 
 ✅ 2. Data Cleaning
 
 Removed rows with missing values in city and delivery_status
-
 Filled missing values in delivery_time_mins using mean
-
 Removed duplicate records
-
 Converted order_date to datetime format
 
 ✅ 3. Data Analysis
 
 Performed aggregation and grouping to derive insights such as:
-
 Minimum, maximum, and average transaction value
-
 Top 5 revenue-generating products
-
 Total sales by city
-
 Average delivery time by city
-
 Monthly sales trends
-
 Category-wise revenue contribution
 
 ✅ 4. Data Visualization
@@ -82,35 +69,24 @@ Category-wise revenue contribution
 Created meaningful visualizations including:
 
 📊 Bar Charts – Top products & city-wise sales
-
 📈 Line Chart – Monthly sales trend
-
 🥧 Pie Chart – Category contribution
-
 📉 Histogram – Delivery time distribution
 
 📊 Key Insights
 
 Identified highest revenue-generating products
-
 Determined top-performing cities based on sales
-
 Evaluated delivery performance across cities
-
 Observed monthly growth patterns
-
 Analyzed category contribution to overall revenue
 
 📈 Sample Business Questions Answered
 
 Which products generate the highest revenue?
-
 Which cities contribute most to total sales?
-
 How does delivery time vary across locations?
-
 What are the monthly sales trends?
-
 Which product category contributes most to revenue?
 
 📁 Project Structure
@@ -129,21 +105,15 @@ git clone https://github.com/your-username/zepto-sales-analysis.git
 Install required libraries
 
 pip install pandas numpy matplotlib seaborn
-
 Open Jupyter Notebook
-
 jupyter notebook
-
 Run Zepto_Sales_Analysis.ipynb
 
 💡 Skills Demonstrated
 
 Data Cleaning
-
 Exploratory Data Analysis (EDA)
-
 Data Aggregation & Grouping
-
 Business Insight Extraction
 
 Data Visualization
