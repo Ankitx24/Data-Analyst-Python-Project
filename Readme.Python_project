@@ -1,27 +1,119 @@
-                                                      ZEPTO DATA ANALYST PROJECT USING PYTHON
-                                             ---------------------------------------------------------
+                                                          🛒 Zepto Sales Data Analysis Project
+                                                        -----------------------------------------
+📌 Project Overview
 
-In this project, I worked on real-world sales data from Zepto, 
-which included two datasets — one containing over 200,000 sales transactions 
-and another containing product details. First, I loaded both CSV files using pandas 
-and performed initial exploration to understand the structure, columns, data types, 
-and overall shape of the datasets. After that, I cleaned the data by handling missing values, 
-I removed rows where city and delivery status were missing and filled missing delivery time values using the mean. 
-I also checked and removed duplicate records to ensure data accuracy and converted the order date column into datetime format for time-based analysis. 
-Once the data was clean, I performed analysis using groupby and aggregation functions to calculate minimum, maximum,
-and average sales amount, identify the top 5 products by total sales, analyze total sales by city, calculate average delivery time by city, 
-examine monthly sales trends, and determine sales by product category by merging both datasets.
-Finally, I visualized these insights using matplotlib and seaborn by creating bar charts, line graphs, pie charts,
-and histograms to make the results easy to understand and interpret. Through this project,
-I followed the complete data analysis workflow from data cleaning to visualization and generated meaningful business insights from raw sales data.
+This project focuses on analyzing real-world sales data from Zepto, a quick-commerce platform. The objective of this project is to perform data cleaning, exploratory data analysis (EDA), aggregation, and visualization using Python.
 
+The dataset contains over 200,000 sales transaction records along with a product catalog. Through this project, I implemented a complete data analysis workflow — from raw data processing to generating meaningful business insights.
 
-TECHNOLOGY USED
+📂 Dataset Description
 
-* Pandas
-* Numpy
-* Matplotlib
-* Seaborn
+The project uses two datasets:
+
+1️⃣ zepto_sales.csv
+
+Contains transactional sales data with the following columns:
+
+order_id – Unique order identifier
+
+order_date – Date and time of order
+
+product_id – Product identifier
+
+quantity – Units sold
+
+city – City of order
+
+delivery_status – Delivery status (Delivered, Cancelled, Returned)
+
+customer_id – Customer identifier
+
+delivery_time_mins – Delivery time in minutes
+
+total_amount – Total transaction amount
+
+2️⃣ zepto_products.csv
+
+Contains product catalog information:
+
+product_id – Unique product identifier
+
+product_name – Name of product
+
+category – Product category
+
+base_price – Base price of product
+
+🛠 Technologies Used
+
+Python
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+Jupyter Notebook
+
+🔎 Project Workflow
+✅ Step 1: Data Loading & Exploration
+
+Loaded both datasets using Pandas
+
+Checked shape, data types, summary statistics
+
+Examined missing values and duplicates
+
+✅ Step 2: Data Cleaning
+
+Removed rows with missing values in city and delivery_status
+
+Filled missing values in delivery_time_mins using mean
+
+Removed duplicate records
+
+Converted order_date into datetime format
+
+✅ Step 3: Data Analysis
+
+Performed aggregation and grouping operations to extract insights such as:
+
+Minimum, maximum, and average transaction amount
+
+Top 5 products by total sales
+
+Total sales by city
+
+Average delivery time by city
+
+Monthly sales trend
+
+Sales by product category
+
+✅ Step 4: Data Visualization
+
+Created meaningful visualizations including:
+
+Bar charts (Top products, Sales by city)
+
+Line chart (Monthly sales trend)
+
+Pie chart (Sales by category)
+
+Histogram (Delivery time distribution)
+
+📊 Key Insights
+
+Identified the highest revenue-generating products
+
+Determined top-performing cities based on sales
+
+Analyzed delivery performance across cities
+
+Observed monthly sales trends
+
+Evaluated contribution of each product category to total revenue
 
 
 
