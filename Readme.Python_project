@@ -1,124 +1,46 @@
-🛒 ZEPTO SALES DATA ANALYSIS PROJECT
-📌 PROJECT OVERVIEW
+🛒 Zepto Sales Data Analysis Project
+📖 Project Overview
 
 This project focuses on analyzing real-world sales data from Zepto, a quick-commerce platform. The objective was to perform end-to-end data analysis — from raw data cleaning to generating meaningful business insights using Python.
 The dataset contains 200,000+ transactional records along with product catalog information. The project demonstrates practical implementation of data preprocessing, exploratory data analysis (EDA), aggregation, and visualization techniques.
 
-📂 Dataset Description
-
-The project uses two datasets:
-
-1️⃣ zepto_sales.csv – Transactional Sales Data
-Column Name	Description
-order_id	Unique order identifier
-order_date	Date and time of order
-product_id	Product identifier
-quantity	Units sold
-city	City where order was placed
-delivery_status	Delivered / Cancelled / Returned
-customer_id	Customer identifier
-delivery_time_mins	Delivery time in minutes
-total_amount	Total transaction amount
-2️⃣ zepto_products.csv – Product Catalog Data
-Column Name	Description
-product_id	Unique product identifier
-product_name	Name of product
-category	Product category
-base_price	Base price of product
 🛠️ Tech Stack
+Language: Python
+Libraries: - Pandas for data manipulation and cleaning.
+Matplotlib & Seaborn for data visualization.
+NumPy for numerical operations.
+📂 Dataset Description
+The analysis utilizes two primary datasets:
 
-Python
+zepto_sales.csv: Contains transaction details including order_id, order_date, city, delivery_status, and total_amount.
+zepto_products.csv: Provides metadata for products, including product_name, category, and base_price.
+🚀 Key Features & Workflow
+1. Data Cleaning 🧼
+Real-world data is often messy. This project handles:
 
-Pandas
+Missing Values: Dropped nulls in critical categorical columns like city and delivery_status. For numerical gaps in delivery_time_mins, mean imputation was used to maintain data integrity.
+Duplicates: Identified and removed 216 duplicate records to prevent biased statistics.
+Formatting: Converted order_date to proper datetime objects for time-series analysis.
+2. Exploratory Data Analysis (EDA) 🔍
+Top Performers: Identified high-revenue products such as Handwash (Personal Care) and Paneer 200g (Dairy & Eggs).
+Geographical Analysis: Ranked cities by total sales, with Mumbai and Bangalore leading the revenue charts.
+Delivery Metrics: Calculated average delivery times across different cities to monitor service efficiency.
+3. Data Visualization 📈
+The project features a comprehensive 3x3 visualization grid showcasing:
 
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Jupyter Notebook
-
-🔎 Project Workflow
-✅ 1. Data Loading & Exploration
-
-Loaded datasets using Pandas
-Inspected shape, columns, and data types
-Generated summary statistics
-Identified missing values and duplicates
-
-✅ 2. Data Cleaning
-
-Removed rows with missing values in city and delivery_status
-Filled missing values in delivery_time_mins using mean
-Removed duplicate records
-Converted order_date to datetime format
-
-✅ 3. Data Analysis
-
-Performed aggregation and grouping to derive insights such as:
-Minimum, maximum, and average transaction value
-Top 5 revenue-generating products
-Total sales by city
-Average delivery time by city
-Monthly sales trends
-Category-wise revenue contribution
-
-✅ 4. Data Visualization
-
-Created meaningful visualizations including:
-
-📊 Bar Charts – Top products & city-wise sales
-📈 Line Chart – Monthly sales trend
-🥧 Pie Chart – Category contribution
-📉 Histogram – Delivery time distribution
-
-📊 Key Insights
-
-Identified highest revenue-generating products
-Determined top-performing cities based on sales
-Evaluated delivery performance across cities
-Observed monthly growth patterns
-Analyzed category contribution to overall revenue
-
-📈 Sample Business Questions Answered
-
-Which products generate the highest revenue?
-Which cities contribute most to total sales?
-How does delivery time vary across locations?
-What are the monthly sales trends?
-Which product category contributes most to revenue?
-
-📁 Project Structure
-Zepto-Sales-Analysis/
-│
-├── zepto_sales.csv
-├── zepto_products.csv
-├── Zepto_Sales_Analysis.ipynb
-└── README.md
-🚀 How to Run This Project
-
-Clone the repository
-
-git clone https://github.com/Ankitx24/Data-Analyst-Python-Project/tree/main
-
-Install required libraries
-
-pip install pandas numpy matplotlib seaborn
-Open Jupyter Notebook
-jupyter notebook
-Run Zepto_Sales_Analysis.ipynb
-
-💡 Skills Demonstrated
-
-Data Cleaning
-Exploratory Data Analysis (EDA)
-Data Aggregation & Grouping
-Business Insight Extraction
-
-Data Visualization
-
-Python for Real-World Analytics
+Trends: Monthly sales growth throughout 2024.
+Distributions: Histograms of delivery times and pie charts of category-wise sales.
+Correlations: Scatter plots of quantity vs. total amount.
+Advanced Insights: A heatmap representing sales density by city and month.
+📊 Sample Insights
+Top Category: Personal Care leads in total sales amount (~23.4M).
+Delivery Efficiency: Average delivery time remains consistent across cities at approximately 26 minutes.
+Sales Peaks: December (2024-12) recorded the highest monthly sales trend.
+💻 How to Run
+Clone this repository.
+Ensure you have the datasets (zepto_sales (2).csv and zepto_products.csv) in the project directory.
+Install dependencies: pip install pandas matplotlib seaborn.
+Run the Jupyter Notebook: zepto_Final_Project.ipynb.
 
 🔗 Connect With Me
 
