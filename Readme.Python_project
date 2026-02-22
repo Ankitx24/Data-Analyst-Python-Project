@@ -1,3 +1,6 @@
+                                                      ZEPTO DATA ANALYST PROJECT USING PYTHON
+                                             ---------------------------------------------------------
+
 In this project, I worked on real-world sales data from Zepto, 
 which included two datasets — one containing over 200,000 sales transactions 
 and another containing product details. First, I loaded both CSV files using pandas 
@@ -11,3 +14,11 @@ examine monthly sales trends, and determine sales by product category by merging
 I visualized these insights using matplotlib and seaborn by creating bar charts, line graphs, pie charts,
 and histograms to make the results easy to understand and interpret. Through this project,
 I followed the complete data analysis workflow from data cleaning to visualization and generated meaningful business insights from raw sales data.
+
+
+TECHNOLOGY USED
+
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
