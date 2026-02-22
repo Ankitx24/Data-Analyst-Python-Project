@@ -1,5 +1,5 @@
-<h1 align="center">🛒 Zepto Sales Data Analysis Project</h1>
-<h2 align="center">📖 Project Overview</h2>
+# 🛒 Zepto Sales Data Analysis Project
+## 📖 Project Overview
 
 This project focuses on analyzing real-world sales data from Zepto, a quick-commerce platform. The objective was to perform end-to-end data analysis — from raw data cleaning to generating meaningful business insights using Python.
 The dataset contains 200,000+ transactional records along with product catalog information. The project demonstrates practical implementation of data preprocessing, exploratory data analysis (EDA), aggregation, and visualization techniques.
