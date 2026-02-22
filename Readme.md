@@ -47,6 +47,10 @@ Advanced Insights: A heatmap representing sales density by city and month.
 Top Category: Personal Care leads in total sales amount (~23.4M).
 Delivery Efficiency: Average delivery time remains consistent across cities at approximately 26 minutes.
 Sales Peaks: December (2024-12) recorded the highest monthly sales trend.
+<img width="912" height="528" alt="image" src="https://github.com/user-attachments/assets/8960d322-1c6c-4837-bb3f-14390a685ef6" />
+<img width="879" height="753" alt="image" src="https://github.com/user-attachments/assets/ed82058a-d0b0-4c9a-8e60-c14d13ab71ca" />
+
+
 
 ##💻 How to Run
 --------------
