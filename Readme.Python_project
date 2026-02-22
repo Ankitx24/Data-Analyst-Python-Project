@@ -10,8 +10,8 @@ I removed rows where city and delivery status were missing and filled missing de
 I also checked and removed duplicate records to ensure data accuracy and converted the order date column into datetime format for time-based analysis. 
 Once the data was clean, I performed analysis using groupby and aggregation functions to calculate minimum, maximum,
 and average sales amount, identify the top 5 products by total sales, analyze total sales by city, calculate average delivery time by city, 
-examine monthly sales trends, and determine sales by product category by merging both datasets. Finally,
-I visualized these insights using matplotlib and seaborn by creating bar charts, line graphs, pie charts,
+examine monthly sales trends, and determine sales by product category by merging both datasets.
+Finally, I visualized these insights using matplotlib and seaborn by creating bar charts, line graphs, pie charts,
 and histograms to make the results easy to understand and interpret. Through this project,
 I followed the complete data analysis workflow from data cleaning to visualization and generated meaningful business insights from raw sales data.
 
